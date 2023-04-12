@@ -1,0 +1,19 @@
+Fonction nbrvoyelle(phrase: chaine de caractere): entier
+Variables i,nbr: entier 
+Debut
+nbr=0
+pour i=0 a longeur(phrase-1)faire
+si (phrase[i]='a'ouphrase[i]='o' phrase[i]='i'phrase[i]='e'phrase[i]='e'phrase[i]='u'phrase[i]='y' )alors
+nbr=nbr+1
+fsi
+fpour
+Retourne nbr
+Repeter
+Ecrire("Entrer une phrase de votre choix")
+lire(phrase)
+Ecrire("Votre phrase contient ,nbrvoyelle(phrase)")
+Ecrire("Oui":Entrer une nouvelle phrase
+       "NON": Quitter le programme)
+       lire(choix)
+       jusqua "NON"
+       

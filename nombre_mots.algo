@@ -1,0 +1,19 @@
+const n=100;
+type tabcaractere = tableau[1 n]de caractere;
+var mots: tabcaractere;
+car: caractere;
+cpt, i,j: entier;
+i=0;
+Repeter
+i=i+1;
+Ecrire("Entrer votre mots caractere par caractere se termine par un point");
+lire(car);
+mots[i]=car;
+jusqua (car<"."ou i<=n);
+cpt=0;
+pour j de 1 a i faire
+si(mots[i]<".")alors
+cpt=cpt+1;
+fsi
+fpour
+fin
